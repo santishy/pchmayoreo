@@ -1,0 +1,42 @@
+// Variables
+@import "variables";
+body{
+	min-height:100%;
+	height:100%;
+}
+.big-padding
+{
+	padding:30px;
+}
+.earphone
+{
+	display:block;
+}
+.large-padding
+{
+	padding: 10px 15px;
+}
+.sale-data
+{
+	padding:1em;
+	text-align:center;
+	border-right:solid 1px #222;
+	span{
+		display:block;
+		font-size:2.2em;
+		color:#3f51b5;
+	}
+}
+.margin-bottom
+{
+	position:absolute;
+	bottom:0px;
+}
+.no-margin
+{
+	margin:0px !important;
+}
+.top-space
+{
+	margin-top:1em;
+}

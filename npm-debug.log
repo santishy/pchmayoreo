@@ -1,0 +1,1462 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose readDependencies loading dependencies from C:\xampp\htdocs\pch\package.json
+5 verbose install where, deps [ 'C:\\xampp\\htdocs\\pch',
+5 verbose install   [ 'webpack',
+5 verbose install     'bootstrap-sass',
+5 verbose install     'gulp',
+5 verbose install     'gulp-install',
+5 verbose install     'jquery',
+5 verbose install     'laravel-elixir',
+5 verbose install     'laravel-elixir-vue-2',
+5 verbose install     'laravel-elixir-webpack-official',
+5 verbose install     'lodash',
+5 verbose install     'vue',
+5 verbose install     'vue-resource' ] ]
+6 verbose install where, peers [ 'C:\\xampp\\htdocs\\pch', [] ]
+7 verbose installManyTop reading for lifecycle C:\xampp\htdocs\pch\package.json
+8 info preinstall @
+9 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\ansi-regex\package.json
+10 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\ansi-styles\package.json
+11 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\array-differ\package.json
+12 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\array-find-index\package.json
+13 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\array-uniq\package.json
+14 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\babel-plugin-add-module-exports\package.json
+15 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\babel-plugin-transform-runtime\package.json
+16 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\babel-preset-es2015\package.json
+17 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\beeper\package.json
+18 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\bootstrap-sass\package.json
+19 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\buble\package.json
+20 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\buble-loader\package.json
+21 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\builtin-modules\package.json
+22 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\camelcase\package.json
+23 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\camelcase-keys\package.json
+24 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\chalk\package.json
+25 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\clone\package.json
+26 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\clone-stats\package.json
+27 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\core-util-is\package.json
+28 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\currently-unhandled\package.json
+29 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\dateformat\package.json
+30 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\decamelize\package.json
+31 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\duplexer2\package.json
+32 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\error-ex\package.json
+33 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\escape-string-regexp\package.json
+34 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\fancy-log\package.json
+35 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\find-up\package.json
+36 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\get-stdin\package.json
+37 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\glogg\package.json
+38 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\graceful-fs\package.json
+39 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\gulp\package.json
+40 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\gulp-install\package.json
+41 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\gulp-util\package.json
+42 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\gulplog\package.json
+43 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\has-ansi\package.json
+44 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\has-gulplog\package.json
+45 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\hosted-git-info\package.json
+46 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\indent-string\package.json
+47 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\inherits\package.json
+48 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\is-arrayish\package.json
+49 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\is-builtin-module\package.json
+50 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\is-finite\package.json
+51 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\is-utf8\package.json
+52 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\isarray\package.json
+53 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\isexe\package.json
+54 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\jquery\package.json
+55 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\laravel-elixir\package.json
+56 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\laravel-elixir-vue-2\package.json
+57 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\laravel-elixir-webpack-official\package.json
+58 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\load-json-file\package.json
+59 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash\package.json
+60 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._basecopy\package.json
+61 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._basetostring\package.json
+62 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._basevalues\package.json
+63 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._getnative\package.json
+64 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._isiterateecall\package.json
+65 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._reescape\package.json
+66 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._reevaluate\package.json
+67 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._reinterpolate\package.json
+68 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash._root\package.json
+69 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash.escape\package.json
+70 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash.isarguments\package.json
+71 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash.isarray\package.json
+72 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash.keys\package.json
+73 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash.restparam\package.json
+74 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash.template\package.json
+75 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\lodash.templatesettings\package.json
+76 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\loud-rejection\package.json
+77 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\map-obj\package.json
+78 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\meow\package.json
+79 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\minimist\package.json
+80 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\multipipe\package.json
+81 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\normalize-package-data\package.json
+82 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\number-is-nan\package.json
+83 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\object-assign\package.json
+84 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\parse-json\package.json
+85 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\path-exists\package.json
+86 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\path-type\package.json
+87 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\pify\package.json
+88 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\pinkie\package.json
+89 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\pinkie-promise\package.json
+90 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\process-nextick-args\package.json
+91 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\read-pkg\package.json
+92 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\read-pkg-up\package.json
+93 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\readable-stream\package.json
+94 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\redent\package.json
+95 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\repeating\package.json
+96 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\replace-ext\package.json
+97 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\semver\package.json
+98 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\signal-exit\package.json
+99 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\sparkles\package.json
+100 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\spdx-correct\package.json
+101 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\spdx-expression-parse\package.json
+102 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\spdx-license-ids\package.json
+103 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\string_decoder\package.json
+104 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\strip-ansi\package.json
+105 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\strip-bom\package.json
+106 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\strip-indent\package.json
+107 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\supports-color\package.json
+108 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\through2\package.json
+109 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\time-stamp\package.json
+110 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\trim-newlines\package.json
+111 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\util-deprecate\package.json
+112 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\validate-npm-package-license\package.json
+113 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\vinyl\package.json
+114 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\vue\package.json
+115 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\vue-resource\package.json
+116 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\webpack\package.json
+117 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\which\package.json
+118 verbose installManyTop reading scoped package data from C:\xampp\htdocs\pch\node_modules\xtend\package.json
+119 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+120 info package.json laravel-elixir-vue-2@0.2.0 No README data
+121 info package.json replace-ext@0.0.1 No license field.
+122 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+123 verbose readDependencies loading dependencies from C:\xampp\htdocs\pch\package.json
+124 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\ansi-regex\package.json
+125 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\ansi-styles\package.json
+126 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\array-differ\package.json
+127 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\array-find-index\package.json
+128 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\array-uniq\package.json
+129 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\babel-plugin-add-module-exports\package.json
+130 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\babel-plugin-transform-runtime\package.json
+131 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\babel-preset-es2015\package.json
+132 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\beeper\package.json
+133 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\bootstrap-sass\package.json
+134 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\buble\package.json
+135 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\buble-loader\package.json
+136 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\builtin-modules\package.json
+137 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\camelcase\package.json
+138 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\camelcase-keys\package.json
+139 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\chalk\package.json
+140 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\clone\package.json
+141 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\clone-stats\package.json
+142 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\core-util-is\package.json
+143 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\currently-unhandled\package.json
+144 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\dateformat\package.json
+145 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\decamelize\package.json
+146 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\duplexer2\package.json
+147 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\error-ex\package.json
+148 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\escape-string-regexp\package.json
+149 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\fancy-log\package.json
+150 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\find-up\package.json
+151 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\get-stdin\package.json
+152 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\glogg\package.json
+153 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\graceful-fs\package.json
+154 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\gulp\package.json
+155 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\gulp-install\package.json
+156 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\gulp-util\package.json
+157 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\gulplog\package.json
+158 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\has-ansi\package.json
+159 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\has-gulplog\package.json
+160 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\hosted-git-info\package.json
+161 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\indent-string\package.json
+162 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\inherits\package.json
+163 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\is-arrayish\package.json
+164 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\is-builtin-module\package.json
+165 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\is-finite\package.json
+166 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\is-utf8\package.json
+167 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\isarray\package.json
+168 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\isexe\package.json
+169 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\jquery\package.json
+170 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\laravel-elixir\package.json
+171 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\laravel-elixir-vue-2\package.json
+172 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\laravel-elixir-webpack-official\package.json
+173 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\load-json-file\package.json
+174 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash\package.json
+175 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._basecopy\package.json
+176 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._basetostring\package.json
+177 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._basevalues\package.json
+178 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._getnative\package.json
+179 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._isiterateecall\package.json
+180 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._reescape\package.json
+181 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._reevaluate\package.json
+182 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._reinterpolate\package.json
+183 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash._root\package.json
+184 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash.escape\package.json
+185 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash.isarguments\package.json
+186 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash.isarray\package.json
+187 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash.keys\package.json
+188 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash.restparam\package.json
+189 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash.template\package.json
+190 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\lodash.templatesettings\package.json
+191 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\loud-rejection\package.json
+192 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\map-obj\package.json
+193 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\meow\package.json
+194 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\minimist\package.json
+195 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\multipipe\package.json
+196 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\normalize-package-data\package.json
+197 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\number-is-nan\package.json
+198 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\object-assign\package.json
+199 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\parse-json\package.json
+200 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\path-exists\package.json
+201 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\path-type\package.json
+202 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\pify\package.json
+203 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\pinkie\package.json
+204 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\pinkie-promise\package.json
+205 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\process-nextick-args\package.json
+206 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\read-pkg\package.json
+207 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\read-pkg-up\package.json
+208 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\readable-stream\package.json
+209 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\redent\package.json
+210 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\repeating\package.json
+211 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\replace-ext\package.json
+212 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\semver\package.json
+213 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\signal-exit\package.json
+214 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\sparkles\package.json
+215 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\spdx-correct\package.json
+216 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\spdx-expression-parse\package.json
+217 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\spdx-license-ids\package.json
+218 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\string_decoder\package.json
+219 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\strip-ansi\package.json
+220 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\strip-bom\package.json
+221 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\strip-indent\package.json
+222 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\supports-color\package.json
+223 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\through2\package.json
+224 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\time-stamp\package.json
+225 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\trim-newlines\package.json
+226 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\util-deprecate\package.json
+227 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\validate-npm-package-license\package.json
+228 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\vinyl\package.json
+229 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\vue\package.json
+230 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\vue-resource\package.json
+231 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\webpack\package.json
+232 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\which\package.json
+233 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\xtend\package.json
+234 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\buble\package.json
+235 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\buble.cmd\package.json
+236 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\dateformat\package.json
+237 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\dateformat.cmd\package.json
+238 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\gulp\package.json
+239 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\gulp.cmd\package.json
+240 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\semver\package.json
+241 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\semver.cmd\package.json
+242 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\strip-indent\package.json
+243 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\strip-indent.cmd\package.json
+244 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\webpack\package.json
+245 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\webpack.cmd\package.json
+246 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\which\package.json
+247 verbose targetResolver reading package data from C:\xampp\htdocs\pch\node_modules\.bin\which.cmd\package.json
+248 verbose already installed skipping gulp@^3.9.1 C:\xampp\htdocs\pch
+249 verbose already installed skipping gulp-install@^0.6.0 C:\xampp\htdocs\pch
+250 verbose already installed skipping jquery@^3.1.0 C:\xampp\htdocs\pch
+251 verbose already installed skipping laravel-elixir@^6.0.0-14 C:\xampp\htdocs\pch
+252 verbose already installed skipping laravel-elixir-vue-2@^0.2.0 C:\xampp\htdocs\pch
+253 verbose already installed skipping laravel-elixir-webpack-official@^1.0.2 C:\xampp\htdocs\pch
+254 verbose already installed skipping lodash@^4.16.2 C:\xampp\htdocs\pch
+255 verbose already installed skipping vue@^2.0.1 C:\xampp\htdocs\pch
+256 verbose already installed skipping vue-resource@^1.0.3 C:\xampp\htdocs\pch
+257 verbose already installed skipping webpack@2.1.0-beta.22 C:\xampp\htdocs\pch
+258 verbose already installed skipping bootstrap-sass@^3.3.7 C:\xampp\htdocs\pch
+259 silly install resolved []
+260 info build C:\xampp\htdocs\pch
+261 info linkStuff @
+262 silly linkStuff @ has C:\xampp\htdocs as its parent node_modules
+263 verbose linkBins @
+264 verbose linkMans @
+265 verbose rebuildBundles @
+266 verbose rebuildBundles [ '.bin',
+266 verbose rebuildBundles   'ansi-regex',
+266 verbose rebuildBundles   'ansi-styles',
+266 verbose rebuildBundles   'array-differ',
+266 verbose rebuildBundles   'array-find-index',
+266 verbose rebuildBundles   'array-uniq',
+266 verbose rebuildBundles   'babel-plugin-add-module-exports',
+266 verbose rebuildBundles   'babel-plugin-transform-runtime',
+266 verbose rebuildBundles   'babel-preset-es2015',
+266 verbose rebuildBundles   'beeper',
+266 verbose rebuildBundles   'bootstrap-sass',
+266 verbose rebuildBundles   'buble',
+266 verbose rebuildBundles   'buble-loader',
+266 verbose rebuildBundles   'builtin-modules',
+266 verbose rebuildBundles   'camelcase',
+266 verbose rebuildBundles   'camelcase-keys',
+266 verbose rebuildBundles   'chalk',
+266 verbose rebuildBundles   'clone',
+266 verbose rebuildBundles   'clone-stats',
+266 verbose rebuildBundles   'core-util-is',
+266 verbose rebuildBundles   'currently-unhandled',
+266 verbose rebuildBundles   'dateformat',
+266 verbose rebuildBundles   'decamelize',
+266 verbose rebuildBundles   'duplexer2',
+266 verbose rebuildBundles   'error-ex',
+266 verbose rebuildBundles   'escape-string-regexp',
+266 verbose rebuildBundles   'fancy-log',
+266 verbose rebuildBundles   'find-up',
+266 verbose rebuildBundles   'get-stdin',
+266 verbose rebuildBundles   'glogg',
+266 verbose rebuildBundles   'graceful-fs',
+266 verbose rebuildBundles   'gulp',
+266 verbose rebuildBundles   'gulp-install',
+266 verbose rebuildBundles   'gulp-util',
+266 verbose rebuildBundles   'gulplog',
+266 verbose rebuildBundles   'has-ansi',
+266 verbose rebuildBundles   'has-gulplog',
+266 verbose rebuildBundles   'hosted-git-info',
+266 verbose rebuildBundles   'indent-string',
+266 verbose rebuildBundles   'inherits',
+266 verbose rebuildBundles   'is-arrayish',
+266 verbose rebuildBundles   'is-builtin-module',
+266 verbose rebuildBundles   'is-finite',
+266 verbose rebuildBundles   'is-utf8',
+266 verbose rebuildBundles   'isarray',
+266 verbose rebuildBundles   'isexe',
+266 verbose rebuildBundles   'jquery',
+266 verbose rebuildBundles   'laravel-elixir',
+266 verbose rebuildBundles   'laravel-elixir-vue-2',
+266 verbose rebuildBundles   'laravel-elixir-webpack-official',
+266 verbose rebuildBundles   'load-json-file',
+266 verbose rebuildBundles   'lodash',
+266 verbose rebuildBundles   'lodash._basecopy',
+266 verbose rebuildBundles   'lodash._basetostring',
+266 verbose rebuildBundles   'lodash._basevalues',
+266 verbose rebuildBundles   'lodash._getnative',
+266 verbose rebuildBundles   'lodash._isiterateecall',
+266 verbose rebuildBundles   'lodash._reescape',
+266 verbose rebuildBundles   'lodash._reevaluate',
+266 verbose rebuildBundles   'lodash._reinterpolate',
+266 verbose rebuildBundles   'lodash._root',
+266 verbose rebuildBundles   'lodash.escape',
+266 verbose rebuildBundles   'lodash.isarguments',
+266 verbose rebuildBundles   'lodash.isarray',
+266 verbose rebuildBundles   'lodash.keys',
+266 verbose rebuildBundles   'lodash.restparam',
+266 verbose rebuildBundles   'lodash.template',
+266 verbose rebuildBundles   'lodash.templatesettings',
+266 verbose rebuildBundles   'loud-rejection',
+266 verbose rebuildBundles   'map-obj',
+266 verbose rebuildBundles   'meow',
+266 verbose rebuildBundles   'minimist',
+266 verbose rebuildBundles   'multipipe',
+266 verbose rebuildBundles   'normalize-package-data',
+266 verbose rebuildBundles   'number-is-nan',
+266 verbose rebuildBundles   'object-assign',
+266 verbose rebuildBundles   'parse-json',
+266 verbose rebuildBundles   'path-exists',
+266 verbose rebuildBundles   'path-type',
+266 verbose rebuildBundles   'pify',
+266 verbose rebuildBundles   'pinkie',
+266 verbose rebuildBundles   'pinkie-promise',
+266 verbose rebuildBundles   'process-nextick-args',
+266 verbose rebuildBundles   'read-pkg',
+266 verbose rebuildBundles   'read-pkg-up',
+266 verbose rebuildBundles   'readable-stream',
+266 verbose rebuildBundles   'redent',
+266 verbose rebuildBundles   'repeating',
+266 verbose rebuildBundles   'replace-ext',
+266 verbose rebuildBundles   'semver',
+266 verbose rebuildBundles   'signal-exit',
+266 verbose rebuildBundles   'sparkles',
+266 verbose rebuildBundles   'spdx-correct',
+266 verbose rebuildBundles   'spdx-expression-parse',
+266 verbose rebuildBundles   'spdx-license-ids',
+266 verbose rebuildBundles   'string_decoder',
+266 verbose rebuildBundles   'strip-ansi',
+266 verbose rebuildBundles   'strip-bom',
+266 verbose rebuildBundles   'strip-indent',
+266 verbose rebuildBundles   'supports-color',
+266 verbose rebuildBundles   'through2',
+266 verbose rebuildBundles   'time-stamp',
+266 verbose rebuildBundles   'trim-newlines',
+266 verbose rebuildBundles   'util-deprecate',
+266 verbose rebuildBundles   'validate-npm-package-license',
+266 verbose rebuildBundles   'vinyl',
+266 verbose rebuildBundles   'vue',
+266 verbose rebuildBundles   'vue-resource',
+266 verbose rebuildBundles   'webpack',
+266 verbose rebuildBundles   'which',
+266 verbose rebuildBundles   'xtend' ]
+267 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\ansi-regex
+268 info build C:\xampp\htdocs\pch\node_modules\ansi-regex
+269 info preinstall ansi-regex@2.0.0
+270 info linkStuff ansi-regex@2.0.0
+271 silly linkStuff ansi-regex@2.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+272 verbose linkBins ansi-regex@2.0.0
+273 verbose linkMans ansi-regex@2.0.0
+274 verbose rebuildBundles ansi-regex@2.0.0
+275 info install ansi-regex@2.0.0
+276 info postinstall ansi-regex@2.0.0
+277 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\ansi-styles
+278 info build C:\xampp\htdocs\pch\node_modules\ansi-styles
+279 info preinstall ansi-styles@2.2.1
+280 info linkStuff ansi-styles@2.2.1
+281 silly linkStuff ansi-styles@2.2.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+282 verbose linkBins ansi-styles@2.2.1
+283 verbose linkMans ansi-styles@2.2.1
+284 verbose rebuildBundles ansi-styles@2.2.1
+285 info install ansi-styles@2.2.1
+286 info postinstall ansi-styles@2.2.1
+287 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\array-differ
+288 info build C:\xampp\htdocs\pch\node_modules\array-differ
+289 info preinstall array-differ@1.0.0
+290 info linkStuff array-differ@1.0.0
+291 silly linkStuff array-differ@1.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+292 verbose linkBins array-differ@1.0.0
+293 verbose linkMans array-differ@1.0.0
+294 verbose rebuildBundles array-differ@1.0.0
+295 info install array-differ@1.0.0
+296 info postinstall array-differ@1.0.0
+297 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\array-find-index
+298 info build C:\xampp\htdocs\pch\node_modules\array-find-index
+299 info preinstall array-find-index@1.0.2
+300 info linkStuff array-find-index@1.0.2
+301 silly linkStuff array-find-index@1.0.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+302 verbose linkBins array-find-index@1.0.2
+303 verbose linkMans array-find-index@1.0.2
+304 verbose rebuildBundles array-find-index@1.0.2
+305 info install array-find-index@1.0.2
+306 info postinstall array-find-index@1.0.2
+307 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\array-uniq
+308 info build C:\xampp\htdocs\pch\node_modules\array-uniq
+309 info preinstall array-uniq@1.0.3
+310 info linkStuff array-uniq@1.0.3
+311 silly linkStuff array-uniq@1.0.3 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+312 verbose linkBins array-uniq@1.0.3
+313 verbose linkMans array-uniq@1.0.3
+314 verbose rebuildBundles array-uniq@1.0.3
+315 info install array-uniq@1.0.3
+316 info postinstall array-uniq@1.0.3
+317 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\babel-plugin-add-module-exports
+318 info build C:\xampp\htdocs\pch\node_modules\babel-plugin-add-module-exports
+319 info preinstall babel-plugin-add-module-exports@0.2.1
+320 info linkStuff babel-plugin-add-module-exports@0.2.1
+321 silly linkStuff babel-plugin-add-module-exports@0.2.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+322 verbose linkBins babel-plugin-add-module-exports@0.2.1
+323 verbose linkMans babel-plugin-add-module-exports@0.2.1
+324 verbose rebuildBundles babel-plugin-add-module-exports@0.2.1
+325 info install babel-plugin-add-module-exports@0.2.1
+326 info postinstall babel-plugin-add-module-exports@0.2.1
+327 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\babel-plugin-transform-runtime
+328 info build C:\xampp\htdocs\pch\node_modules\babel-plugin-transform-runtime
+329 info preinstall babel-plugin-transform-runtime@6.15.0
+330 info linkStuff babel-plugin-transform-runtime@6.15.0
+331 silly linkStuff babel-plugin-transform-runtime@6.15.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+332 verbose linkBins babel-plugin-transform-runtime@6.15.0
+333 verbose linkMans babel-plugin-transform-runtime@6.15.0
+334 verbose rebuildBundles babel-plugin-transform-runtime@6.15.0
+335 verbose rebuildBundles [ 'babel-runtime' ]
+336 info install babel-plugin-transform-runtime@6.15.0
+337 info postinstall babel-plugin-transform-runtime@6.15.0
+338 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\babel-preset-es2015
+339 info build C:\xampp\htdocs\pch\node_modules\babel-preset-es2015
+340 info preinstall babel-preset-es2015@6.9.0
+341 info linkStuff babel-preset-es2015@6.9.0
+342 silly linkStuff babel-preset-es2015@6.9.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+343 verbose linkBins babel-preset-es2015@6.9.0
+344 verbose linkMans babel-preset-es2015@6.9.0
+345 verbose rebuildBundles babel-preset-es2015@6.9.0
+346 verbose rebuildBundles [ 'babel-plugin-check-es2015-constants',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-arrow-functions',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-block-scoped-functions',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-block-scoping',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-classes',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-computed-properties',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-destructuring',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-duplicate-keys',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-for-of',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-function-name',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-literals',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-modules-commonjs',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-object-super',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-parameters',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-shorthand-properties',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-spread',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-sticky-regex',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-template-literals',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-typeof-symbol',
+346 verbose rebuildBundles   'babel-plugin-transform-es2015-unicode-regex',
+346 verbose rebuildBundles   'babel-plugin-transform-regenerator' ]
+347 info install babel-preset-es2015@6.9.0
+348 info postinstall babel-preset-es2015@6.9.0
+349 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\beeper
+350 info build C:\xampp\htdocs\pch\node_modules\beeper
+351 info preinstall beeper@1.1.1
+352 info linkStuff beeper@1.1.1
+353 silly linkStuff beeper@1.1.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+354 verbose linkBins beeper@1.1.1
+355 verbose linkMans beeper@1.1.1
+356 verbose rebuildBundles beeper@1.1.1
+357 info install beeper@1.1.1
+358 info postinstall beeper@1.1.1
+359 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\buble
+360 info build C:\xampp\htdocs\pch\node_modules\buble
+361 info preinstall buble@0.13.2
+362 info linkStuff buble@0.13.2
+363 silly linkStuff buble@0.13.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+364 verbose linkBins buble@0.13.2
+365 verbose link bins [ { buble: './bin/buble' },
+365 verbose link bins   'C:\\xampp\\htdocs\\pch\\node_modules\\.bin',
+365 verbose link bins   false ]
+366 verbose linkMans buble@0.13.2
+367 verbose rebuildBundles buble@0.13.2
+368 verbose rebuildBundles [ '.bin',
+368 verbose rebuildBundles   'acorn',
+368 verbose rebuildBundles   'acorn-jsx',
+368 verbose rebuildBundles   'acorn-object-spread',
+368 verbose rebuildBundles   'chalk',
+368 verbose rebuildBundles   'magic-string',
+368 verbose rebuildBundles   'minimist',
+368 verbose rebuildBundles   'os-homedir' ]
+369 info install buble@0.13.2
+370 info postinstall buble@0.13.2
+371 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\buble-loader
+372 info build C:\xampp\htdocs\pch\node_modules\buble-loader
+373 info preinstall buble-loader@0.3.2
+374 info linkStuff buble-loader@0.3.2
+375 silly linkStuff buble-loader@0.3.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+376 verbose linkBins buble-loader@0.3.2
+377 verbose linkMans buble-loader@0.3.2
+378 verbose rebuildBundles buble-loader@0.3.2
+379 verbose rebuildBundles [ 'loader-utils' ]
+380 info install buble-loader@0.3.2
+381 info postinstall buble-loader@0.3.2
+382 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\builtin-modules
+383 info build C:\xampp\htdocs\pch\node_modules\builtin-modules
+384 info preinstall builtin-modules@1.1.1
+385 info linkStuff builtin-modules@1.1.1
+386 silly linkStuff builtin-modules@1.1.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+387 verbose linkBins builtin-modules@1.1.1
+388 verbose linkMans builtin-modules@1.1.1
+389 verbose rebuildBundles builtin-modules@1.1.1
+390 info install builtin-modules@1.1.1
+391 info postinstall builtin-modules@1.1.1
+392 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\camelcase
+393 info build C:\xampp\htdocs\pch\node_modules\camelcase
+394 info preinstall camelcase@2.1.1
+395 info linkStuff camelcase@2.1.1
+396 silly linkStuff camelcase@2.1.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+397 verbose linkBins camelcase@2.1.1
+398 verbose linkMans camelcase@2.1.1
+399 verbose rebuildBundles camelcase@2.1.1
+400 info install camelcase@2.1.1
+401 info postinstall camelcase@2.1.1
+402 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\camelcase-keys
+403 info build C:\xampp\htdocs\pch\node_modules\camelcase-keys
+404 info preinstall camelcase-keys@2.1.0
+405 info linkStuff camelcase-keys@2.1.0
+406 silly linkStuff camelcase-keys@2.1.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+407 verbose linkBins camelcase-keys@2.1.0
+408 verbose linkMans camelcase-keys@2.1.0
+409 verbose rebuildBundles camelcase-keys@2.1.0
+410 info install camelcase-keys@2.1.0
+411 info postinstall camelcase-keys@2.1.0
+412 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\chalk
+413 info build C:\xampp\htdocs\pch\node_modules\chalk
+414 info preinstall chalk@1.1.3
+415 info linkStuff chalk@1.1.3
+416 silly linkStuff chalk@1.1.3 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+417 verbose linkBins chalk@1.1.3
+418 verbose linkMans chalk@1.1.3
+419 verbose rebuildBundles chalk@1.1.3
+420 info install chalk@1.1.3
+421 info postinstall chalk@1.1.3
+422 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\clone
+423 info build C:\xampp\htdocs\pch\node_modules\clone
+424 info preinstall clone@1.0.2
+425 info linkStuff clone@1.0.2
+426 silly linkStuff clone@1.0.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+427 verbose linkBins clone@1.0.2
+428 verbose linkMans clone@1.0.2
+429 verbose rebuildBundles clone@1.0.2
+430 info install clone@1.0.2
+431 info postinstall clone@1.0.2
+432 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\clone-stats
+433 info build C:\xampp\htdocs\pch\node_modules\clone-stats
+434 info preinstall clone-stats@0.0.1
+435 info linkStuff clone-stats@0.0.1
+436 silly linkStuff clone-stats@0.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+437 verbose linkBins clone-stats@0.0.1
+438 verbose linkMans clone-stats@0.0.1
+439 verbose rebuildBundles clone-stats@0.0.1
+440 info install clone-stats@0.0.1
+441 info postinstall clone-stats@0.0.1
+442 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\core-util-is
+443 info build C:\xampp\htdocs\pch\node_modules\core-util-is
+444 info preinstall core-util-is@1.0.2
+445 info linkStuff core-util-is@1.0.2
+446 silly linkStuff core-util-is@1.0.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+447 verbose linkBins core-util-is@1.0.2
+448 verbose linkMans core-util-is@1.0.2
+449 verbose rebuildBundles core-util-is@1.0.2
+450 info install core-util-is@1.0.2
+451 info postinstall core-util-is@1.0.2
+452 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\currently-unhandled
+453 info build C:\xampp\htdocs\pch\node_modules\currently-unhandled
+454 info preinstall currently-unhandled@0.4.1
+455 info linkStuff currently-unhandled@0.4.1
+456 silly linkStuff currently-unhandled@0.4.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+457 verbose linkBins currently-unhandled@0.4.1
+458 verbose linkMans currently-unhandled@0.4.1
+459 verbose rebuildBundles currently-unhandled@0.4.1
+460 info install currently-unhandled@0.4.1
+461 info postinstall currently-unhandled@0.4.1
+462 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\dateformat
+463 info build C:\xampp\htdocs\pch\node_modules\dateformat
+464 info preinstall dateformat@1.0.12
+465 info linkStuff dateformat@1.0.12
+466 silly linkStuff dateformat@1.0.12 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+467 verbose linkBins dateformat@1.0.12
+468 verbose link bins [ { dateformat: 'bin/cli.js' },
+468 verbose link bins   'C:\\xampp\\htdocs\\pch\\node_modules\\.bin',
+468 verbose link bins   false ]
+469 verbose linkMans dateformat@1.0.12
+470 verbose rebuildBundles dateformat@1.0.12
+471 info install dateformat@1.0.12
+472 info postinstall dateformat@1.0.12
+473 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\decamelize
+474 info build C:\xampp\htdocs\pch\node_modules\decamelize
+475 info preinstall decamelize@1.2.0
+476 info linkStuff decamelize@1.2.0
+477 silly linkStuff decamelize@1.2.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+478 verbose linkBins decamelize@1.2.0
+479 verbose linkMans decamelize@1.2.0
+480 verbose rebuildBundles decamelize@1.2.0
+481 info install decamelize@1.2.0
+482 info postinstall decamelize@1.2.0
+483 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\duplexer2
+484 info build C:\xampp\htdocs\pch\node_modules\duplexer2
+485 info preinstall duplexer2@0.0.2
+486 info linkStuff duplexer2@0.0.2
+487 silly linkStuff duplexer2@0.0.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+488 verbose linkBins duplexer2@0.0.2
+489 verbose linkMans duplexer2@0.0.2
+490 verbose rebuildBundles duplexer2@0.0.2
+491 info install duplexer2@0.0.2
+492 info postinstall duplexer2@0.0.2
+493 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\error-ex
+494 info build C:\xampp\htdocs\pch\node_modules\error-ex
+495 info preinstall error-ex@1.3.0
+496 info linkStuff error-ex@1.3.0
+497 silly linkStuff error-ex@1.3.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+498 verbose linkBins error-ex@1.3.0
+499 verbose linkMans error-ex@1.3.0
+500 verbose rebuildBundles error-ex@1.3.0
+501 info install error-ex@1.3.0
+502 info postinstall error-ex@1.3.0
+503 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\escape-string-regexp
+504 info build C:\xampp\htdocs\pch\node_modules\escape-string-regexp
+505 info preinstall escape-string-regexp@1.0.5
+506 info linkStuff escape-string-regexp@1.0.5
+507 silly linkStuff escape-string-regexp@1.0.5 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+508 verbose linkBins escape-string-regexp@1.0.5
+509 verbose linkMans escape-string-regexp@1.0.5
+510 verbose rebuildBundles escape-string-regexp@1.0.5
+511 info install escape-string-regexp@1.0.5
+512 info postinstall escape-string-regexp@1.0.5
+513 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\fancy-log
+514 info build C:\xampp\htdocs\pch\node_modules\fancy-log
+515 info preinstall fancy-log@1.2.0
+516 info linkStuff fancy-log@1.2.0
+517 silly linkStuff fancy-log@1.2.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+518 verbose linkBins fancy-log@1.2.0
+519 verbose linkMans fancy-log@1.2.0
+520 verbose rebuildBundles fancy-log@1.2.0
+521 info install fancy-log@1.2.0
+522 info postinstall fancy-log@1.2.0
+523 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\find-up
+524 info build C:\xampp\htdocs\pch\node_modules\find-up
+525 info preinstall find-up@1.1.2
+526 info linkStuff find-up@1.1.2
+527 silly linkStuff find-up@1.1.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+528 verbose linkBins find-up@1.1.2
+529 verbose linkMans find-up@1.1.2
+530 verbose rebuildBundles find-up@1.1.2
+531 info install find-up@1.1.2
+532 info postinstall find-up@1.1.2
+533 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\get-stdin
+534 info build C:\xampp\htdocs\pch\node_modules\get-stdin
+535 info preinstall get-stdin@4.0.1
+536 info linkStuff get-stdin@4.0.1
+537 silly linkStuff get-stdin@4.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+538 verbose linkBins get-stdin@4.0.1
+539 verbose linkMans get-stdin@4.0.1
+540 verbose rebuildBundles get-stdin@4.0.1
+541 info install get-stdin@4.0.1
+542 info postinstall get-stdin@4.0.1
+543 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\glogg
+544 info build C:\xampp\htdocs\pch\node_modules\glogg
+545 info preinstall glogg@1.0.0
+546 info linkStuff glogg@1.0.0
+547 silly linkStuff glogg@1.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+548 verbose linkBins glogg@1.0.0
+549 verbose linkMans glogg@1.0.0
+550 verbose rebuildBundles glogg@1.0.0
+551 info install glogg@1.0.0
+552 info postinstall glogg@1.0.0
+553 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\graceful-fs
+554 info build C:\xampp\htdocs\pch\node_modules\graceful-fs
+555 info preinstall graceful-fs@4.1.10
+556 info linkStuff graceful-fs@4.1.10
+557 silly linkStuff graceful-fs@4.1.10 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+558 verbose linkBins graceful-fs@4.1.10
+559 verbose linkMans graceful-fs@4.1.10
+560 verbose rebuildBundles graceful-fs@4.1.10
+561 info install graceful-fs@4.1.10
+562 info postinstall graceful-fs@4.1.10
+563 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\gulp-util
+564 info build C:\xampp\htdocs\pch\node_modules\gulp-util
+565 info preinstall gulp-util@3.0.7
+566 info linkStuff gulp-util@3.0.7
+567 silly linkStuff gulp-util@3.0.7 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+568 verbose linkBins gulp-util@3.0.7
+569 verbose linkMans gulp-util@3.0.7
+570 verbose rebuildBundles gulp-util@3.0.7
+571 info install gulp-util@3.0.7
+572 info postinstall gulp-util@3.0.7
+573 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\gulplog
+574 info build C:\xampp\htdocs\pch\node_modules\gulplog
+575 info preinstall gulplog@1.0.0
+576 info linkStuff gulplog@1.0.0
+577 silly linkStuff gulplog@1.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+578 verbose linkBins gulplog@1.0.0
+579 verbose linkMans gulplog@1.0.0
+580 verbose rebuildBundles gulplog@1.0.0
+581 info install gulplog@1.0.0
+582 info postinstall gulplog@1.0.0
+583 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\has-ansi
+584 info build C:\xampp\htdocs\pch\node_modules\has-ansi
+585 info preinstall has-ansi@2.0.0
+586 info linkStuff has-ansi@2.0.0
+587 silly linkStuff has-ansi@2.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+588 verbose linkBins has-ansi@2.0.0
+589 verbose linkMans has-ansi@2.0.0
+590 verbose rebuildBundles has-ansi@2.0.0
+591 info install has-ansi@2.0.0
+592 info postinstall has-ansi@2.0.0
+593 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\has-gulplog
+594 info build C:\xampp\htdocs\pch\node_modules\has-gulplog
+595 info preinstall has-gulplog@0.1.0
+596 info linkStuff has-gulplog@0.1.0
+597 silly linkStuff has-gulplog@0.1.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+598 verbose linkBins has-gulplog@0.1.0
+599 verbose linkMans has-gulplog@0.1.0
+600 verbose rebuildBundles has-gulplog@0.1.0
+601 info install has-gulplog@0.1.0
+602 info postinstall has-gulplog@0.1.0
+603 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\hosted-git-info
+604 info build C:\xampp\htdocs\pch\node_modules\hosted-git-info
+605 info preinstall hosted-git-info@2.1.5
+606 info linkStuff hosted-git-info@2.1.5
+607 silly linkStuff hosted-git-info@2.1.5 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+608 verbose linkBins hosted-git-info@2.1.5
+609 verbose linkMans hosted-git-info@2.1.5
+610 verbose rebuildBundles hosted-git-info@2.1.5
+611 info install hosted-git-info@2.1.5
+612 info postinstall hosted-git-info@2.1.5
+613 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\indent-string
+614 info build C:\xampp\htdocs\pch\node_modules\indent-string
+615 info preinstall indent-string@2.1.0
+616 info linkStuff indent-string@2.1.0
+617 silly linkStuff indent-string@2.1.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+618 verbose linkBins indent-string@2.1.0
+619 verbose linkMans indent-string@2.1.0
+620 verbose rebuildBundles indent-string@2.1.0
+621 info install indent-string@2.1.0
+622 info postinstall indent-string@2.1.0
+623 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\inherits
+624 info build C:\xampp\htdocs\pch\node_modules\inherits
+625 info preinstall inherits@2.0.3
+626 info linkStuff inherits@2.0.3
+627 silly linkStuff inherits@2.0.3 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+628 verbose linkBins inherits@2.0.3
+629 verbose linkMans inherits@2.0.3
+630 verbose rebuildBundles inherits@2.0.3
+631 info install inherits@2.0.3
+632 info postinstall inherits@2.0.3
+633 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\is-arrayish
+634 info build C:\xampp\htdocs\pch\node_modules\is-arrayish
+635 info preinstall is-arrayish@0.2.1
+636 info linkStuff is-arrayish@0.2.1
+637 silly linkStuff is-arrayish@0.2.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+638 verbose linkBins is-arrayish@0.2.1
+639 verbose linkMans is-arrayish@0.2.1
+640 verbose rebuildBundles is-arrayish@0.2.1
+641 info install is-arrayish@0.2.1
+642 info postinstall is-arrayish@0.2.1
+643 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\is-builtin-module
+644 info build C:\xampp\htdocs\pch\node_modules\is-builtin-module
+645 info preinstall is-builtin-module@1.0.0
+646 info linkStuff is-builtin-module@1.0.0
+647 silly linkStuff is-builtin-module@1.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+648 verbose linkBins is-builtin-module@1.0.0
+649 verbose linkMans is-builtin-module@1.0.0
+650 verbose rebuildBundles is-builtin-module@1.0.0
+651 info install is-builtin-module@1.0.0
+652 info postinstall is-builtin-module@1.0.0
+653 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\is-finite
+654 info build C:\xampp\htdocs\pch\node_modules\is-finite
+655 info preinstall is-finite@1.0.2
+656 info linkStuff is-finite@1.0.2
+657 silly linkStuff is-finite@1.0.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+658 verbose linkBins is-finite@1.0.2
+659 verbose linkMans is-finite@1.0.2
+660 verbose rebuildBundles is-finite@1.0.2
+661 info install is-finite@1.0.2
+662 info postinstall is-finite@1.0.2
+663 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\is-utf8
+664 info build C:\xampp\htdocs\pch\node_modules\is-utf8
+665 info preinstall is-utf8@0.2.1
+666 info linkStuff is-utf8@0.2.1
+667 silly linkStuff is-utf8@0.2.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+668 verbose linkBins is-utf8@0.2.1
+669 verbose linkMans is-utf8@0.2.1
+670 verbose rebuildBundles is-utf8@0.2.1
+671 info install is-utf8@0.2.1
+672 info postinstall is-utf8@0.2.1
+673 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\isarray
+674 info build C:\xampp\htdocs\pch\node_modules\isarray
+675 info preinstall isarray@0.0.1
+676 info linkStuff isarray@0.0.1
+677 silly linkStuff isarray@0.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+678 verbose linkBins isarray@0.0.1
+679 verbose linkMans isarray@0.0.1
+680 verbose rebuildBundles isarray@0.0.1
+681 info install isarray@0.0.1
+682 info postinstall isarray@0.0.1
+683 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\isexe
+684 info build C:\xampp\htdocs\pch\node_modules\isexe
+685 info preinstall isexe@1.1.2
+686 info linkStuff isexe@1.1.2
+687 silly linkStuff isexe@1.1.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+688 verbose linkBins isexe@1.1.2
+689 verbose linkMans isexe@1.1.2
+690 verbose rebuildBundles isexe@1.1.2
+691 info install isexe@1.1.2
+692 info postinstall isexe@1.1.2
+693 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\load-json-file
+694 info build C:\xampp\htdocs\pch\node_modules\load-json-file
+695 info preinstall load-json-file@1.1.0
+696 info linkStuff load-json-file@1.1.0
+697 silly linkStuff load-json-file@1.1.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+698 verbose linkBins load-json-file@1.1.0
+699 verbose linkMans load-json-file@1.1.0
+700 verbose rebuildBundles load-json-file@1.1.0
+701 info install load-json-file@1.1.0
+702 info postinstall load-json-file@1.1.0
+703 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._basecopy
+704 info build C:\xampp\htdocs\pch\node_modules\lodash._basecopy
+705 info preinstall lodash._basecopy@3.0.1
+706 info linkStuff lodash._basecopy@3.0.1
+707 silly linkStuff lodash._basecopy@3.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+708 verbose linkBins lodash._basecopy@3.0.1
+709 verbose linkMans lodash._basecopy@3.0.1
+710 verbose rebuildBundles lodash._basecopy@3.0.1
+711 info install lodash._basecopy@3.0.1
+712 info postinstall lodash._basecopy@3.0.1
+713 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._basetostring
+714 info build C:\xampp\htdocs\pch\node_modules\lodash._basetostring
+715 info preinstall lodash._basetostring@3.0.1
+716 info linkStuff lodash._basetostring@3.0.1
+717 silly linkStuff lodash._basetostring@3.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+718 verbose linkBins lodash._basetostring@3.0.1
+719 verbose linkMans lodash._basetostring@3.0.1
+720 verbose rebuildBundles lodash._basetostring@3.0.1
+721 info install lodash._basetostring@3.0.1
+722 info postinstall lodash._basetostring@3.0.1
+723 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._basevalues
+724 info build C:\xampp\htdocs\pch\node_modules\lodash._basevalues
+725 info preinstall lodash._basevalues@3.0.0
+726 info linkStuff lodash._basevalues@3.0.0
+727 silly linkStuff lodash._basevalues@3.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+728 verbose linkBins lodash._basevalues@3.0.0
+729 verbose linkMans lodash._basevalues@3.0.0
+730 verbose rebuildBundles lodash._basevalues@3.0.0
+731 info install lodash._basevalues@3.0.0
+732 info postinstall lodash._basevalues@3.0.0
+733 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._getnative
+734 info build C:\xampp\htdocs\pch\node_modules\lodash._getnative
+735 info preinstall lodash._getnative@3.9.1
+736 info linkStuff lodash._getnative@3.9.1
+737 silly linkStuff lodash._getnative@3.9.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+738 verbose linkBins lodash._getnative@3.9.1
+739 verbose linkMans lodash._getnative@3.9.1
+740 verbose rebuildBundles lodash._getnative@3.9.1
+741 info install lodash._getnative@3.9.1
+742 info postinstall lodash._getnative@3.9.1
+743 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._isiterateecall
+744 info build C:\xampp\htdocs\pch\node_modules\lodash._isiterateecall
+745 info preinstall lodash._isiterateecall@3.0.9
+746 info linkStuff lodash._isiterateecall@3.0.9
+747 silly linkStuff lodash._isiterateecall@3.0.9 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+748 verbose linkBins lodash._isiterateecall@3.0.9
+749 verbose linkMans lodash._isiterateecall@3.0.9
+750 verbose rebuildBundles lodash._isiterateecall@3.0.9
+751 info install lodash._isiterateecall@3.0.9
+752 info postinstall lodash._isiterateecall@3.0.9
+753 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._reescape
+754 info build C:\xampp\htdocs\pch\node_modules\lodash._reescape
+755 info preinstall lodash._reescape@3.0.0
+756 info linkStuff lodash._reescape@3.0.0
+757 silly linkStuff lodash._reescape@3.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+758 verbose linkBins lodash._reescape@3.0.0
+759 verbose linkMans lodash._reescape@3.0.0
+760 verbose rebuildBundles lodash._reescape@3.0.0
+761 info install lodash._reescape@3.0.0
+762 info postinstall lodash._reescape@3.0.0
+763 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._reevaluate
+764 info build C:\xampp\htdocs\pch\node_modules\lodash._reevaluate
+765 info preinstall lodash._reevaluate@3.0.0
+766 info linkStuff lodash._reevaluate@3.0.0
+767 silly linkStuff lodash._reevaluate@3.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+768 verbose linkBins lodash._reevaluate@3.0.0
+769 verbose linkMans lodash._reevaluate@3.0.0
+770 verbose rebuildBundles lodash._reevaluate@3.0.0
+771 info install lodash._reevaluate@3.0.0
+772 info postinstall lodash._reevaluate@3.0.0
+773 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._reinterpolate
+774 info build C:\xampp\htdocs\pch\node_modules\lodash._reinterpolate
+775 info preinstall lodash._reinterpolate@3.0.0
+776 info linkStuff lodash._reinterpolate@3.0.0
+777 silly linkStuff lodash._reinterpolate@3.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+778 verbose linkBins lodash._reinterpolate@3.0.0
+779 verbose linkMans lodash._reinterpolate@3.0.0
+780 verbose rebuildBundles lodash._reinterpolate@3.0.0
+781 info install lodash._reinterpolate@3.0.0
+782 info postinstall lodash._reinterpolate@3.0.0
+783 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash._root
+784 info build C:\xampp\htdocs\pch\node_modules\lodash._root
+785 info preinstall lodash._root@3.0.1
+786 info linkStuff lodash._root@3.0.1
+787 silly linkStuff lodash._root@3.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+788 verbose linkBins lodash._root@3.0.1
+789 verbose linkMans lodash._root@3.0.1
+790 verbose rebuildBundles lodash._root@3.0.1
+791 info install lodash._root@3.0.1
+792 info postinstall lodash._root@3.0.1
+793 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash.escape
+794 info build C:\xampp\htdocs\pch\node_modules\lodash.escape
+795 info preinstall lodash.escape@3.2.0
+796 info linkStuff lodash.escape@3.2.0
+797 silly linkStuff lodash.escape@3.2.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+798 verbose linkBins lodash.escape@3.2.0
+799 verbose linkMans lodash.escape@3.2.0
+800 verbose rebuildBundles lodash.escape@3.2.0
+801 info install lodash.escape@3.2.0
+802 info postinstall lodash.escape@3.2.0
+803 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash.isarguments
+804 info build C:\xampp\htdocs\pch\node_modules\lodash.isarguments
+805 info preinstall lodash.isarguments@3.1.0
+806 info linkStuff lodash.isarguments@3.1.0
+807 silly linkStuff lodash.isarguments@3.1.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+808 verbose linkBins lodash.isarguments@3.1.0
+809 verbose linkMans lodash.isarguments@3.1.0
+810 verbose rebuildBundles lodash.isarguments@3.1.0
+811 info install lodash.isarguments@3.1.0
+812 info postinstall lodash.isarguments@3.1.0
+813 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash.isarray
+814 info build C:\xampp\htdocs\pch\node_modules\lodash.isarray
+815 info preinstall lodash.isarray@3.0.4
+816 info linkStuff lodash.isarray@3.0.4
+817 silly linkStuff lodash.isarray@3.0.4 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+818 verbose linkBins lodash.isarray@3.0.4
+819 verbose linkMans lodash.isarray@3.0.4
+820 verbose rebuildBundles lodash.isarray@3.0.4
+821 info install lodash.isarray@3.0.4
+822 info postinstall lodash.isarray@3.0.4
+823 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash.keys
+824 info build C:\xampp\htdocs\pch\node_modules\lodash.keys
+825 info preinstall lodash.keys@3.1.2
+826 info linkStuff lodash.keys@3.1.2
+827 silly linkStuff lodash.keys@3.1.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+828 verbose linkBins lodash.keys@3.1.2
+829 verbose linkMans lodash.keys@3.1.2
+830 verbose rebuildBundles lodash.keys@3.1.2
+831 info install lodash.keys@3.1.2
+832 info postinstall lodash.keys@3.1.2
+833 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash.restparam
+834 info build C:\xampp\htdocs\pch\node_modules\lodash.restparam
+835 info preinstall lodash.restparam@3.6.1
+836 info linkStuff lodash.restparam@3.6.1
+837 silly linkStuff lodash.restparam@3.6.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+838 verbose linkBins lodash.restparam@3.6.1
+839 verbose linkMans lodash.restparam@3.6.1
+840 verbose rebuildBundles lodash.restparam@3.6.1
+841 info install lodash.restparam@3.6.1
+842 info postinstall lodash.restparam@3.6.1
+843 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash.template
+844 info build C:\xampp\htdocs\pch\node_modules\lodash.template
+845 info preinstall lodash.template@3.6.2
+846 info linkStuff lodash.template@3.6.2
+847 silly linkStuff lodash.template@3.6.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+848 verbose linkBins lodash.template@3.6.2
+849 verbose linkMans lodash.template@3.6.2
+850 verbose rebuildBundles lodash.template@3.6.2
+851 info install lodash.template@3.6.2
+852 info postinstall lodash.template@3.6.2
+853 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\lodash.templatesettings
+854 info build C:\xampp\htdocs\pch\node_modules\lodash.templatesettings
+855 info preinstall lodash.templatesettings@3.1.1
+856 info linkStuff lodash.templatesettings@3.1.1
+857 silly linkStuff lodash.templatesettings@3.1.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+858 verbose linkBins lodash.templatesettings@3.1.1
+859 verbose linkMans lodash.templatesettings@3.1.1
+860 verbose rebuildBundles lodash.templatesettings@3.1.1
+861 info install lodash.templatesettings@3.1.1
+862 info postinstall lodash.templatesettings@3.1.1
+863 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\loud-rejection
+864 info build C:\xampp\htdocs\pch\node_modules\loud-rejection
+865 info preinstall loud-rejection@1.6.0
+866 info linkStuff loud-rejection@1.6.0
+867 silly linkStuff loud-rejection@1.6.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+868 verbose linkBins loud-rejection@1.6.0
+869 verbose linkMans loud-rejection@1.6.0
+870 verbose rebuildBundles loud-rejection@1.6.0
+871 info install loud-rejection@1.6.0
+872 info postinstall loud-rejection@1.6.0
+873 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\map-obj
+874 info build C:\xampp\htdocs\pch\node_modules\map-obj
+875 info preinstall map-obj@1.0.1
+876 info linkStuff map-obj@1.0.1
+877 silly linkStuff map-obj@1.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+878 verbose linkBins map-obj@1.0.1
+879 verbose linkMans map-obj@1.0.1
+880 verbose rebuildBundles map-obj@1.0.1
+881 info install map-obj@1.0.1
+882 info postinstall map-obj@1.0.1
+883 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\meow
+884 info build C:\xampp\htdocs\pch\node_modules\meow
+885 info preinstall meow@3.7.0
+886 info linkStuff meow@3.7.0
+887 silly linkStuff meow@3.7.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+888 verbose linkBins meow@3.7.0
+889 verbose linkMans meow@3.7.0
+890 verbose rebuildBundles meow@3.7.0
+891 verbose rebuildBundles [ 'object-assign' ]
+892 info install meow@3.7.0
+893 info postinstall meow@3.7.0
+894 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\minimist
+895 info build C:\xampp\htdocs\pch\node_modules\minimist
+896 info preinstall minimist@1.2.0
+897 info linkStuff minimist@1.2.0
+898 silly linkStuff minimist@1.2.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+899 verbose linkBins minimist@1.2.0
+900 verbose linkMans minimist@1.2.0
+901 verbose rebuildBundles minimist@1.2.0
+902 info install minimist@1.2.0
+903 info postinstall minimist@1.2.0
+904 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\multipipe
+905 info build C:\xampp\htdocs\pch\node_modules\multipipe
+906 info preinstall multipipe@0.1.2
+907 info linkStuff multipipe@0.1.2
+908 silly linkStuff multipipe@0.1.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+909 verbose linkBins multipipe@0.1.2
+910 verbose linkMans multipipe@0.1.2
+911 verbose rebuildBundles multipipe@0.1.2
+912 info install multipipe@0.1.2
+913 info postinstall multipipe@0.1.2
+914 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\normalize-package-data
+915 info build C:\xampp\htdocs\pch\node_modules\normalize-package-data
+916 info preinstall normalize-package-data@2.3.5
+917 info linkStuff normalize-package-data@2.3.5
+918 silly linkStuff normalize-package-data@2.3.5 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+919 verbose linkBins normalize-package-data@2.3.5
+920 verbose linkMans normalize-package-data@2.3.5
+921 verbose rebuildBundles normalize-package-data@2.3.5
+922 info install normalize-package-data@2.3.5
+923 info postinstall normalize-package-data@2.3.5
+924 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\number-is-nan
+925 info build C:\xampp\htdocs\pch\node_modules\number-is-nan
+926 info preinstall number-is-nan@1.0.1
+927 info linkStuff number-is-nan@1.0.1
+928 silly linkStuff number-is-nan@1.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+929 verbose linkBins number-is-nan@1.0.1
+930 verbose linkMans number-is-nan@1.0.1
+931 verbose rebuildBundles number-is-nan@1.0.1
+932 info install number-is-nan@1.0.1
+933 info postinstall number-is-nan@1.0.1
+934 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\object-assign
+935 info build C:\xampp\htdocs\pch\node_modules\object-assign
+936 info preinstall object-assign@3.0.0
+937 info linkStuff object-assign@3.0.0
+938 silly linkStuff object-assign@3.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+939 verbose linkBins object-assign@3.0.0
+940 verbose linkMans object-assign@3.0.0
+941 verbose rebuildBundles object-assign@3.0.0
+942 info install object-assign@3.0.0
+943 info postinstall object-assign@3.0.0
+944 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\parse-json
+945 info build C:\xampp\htdocs\pch\node_modules\parse-json
+946 info preinstall parse-json@2.2.0
+947 info linkStuff parse-json@2.2.0
+948 silly linkStuff parse-json@2.2.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+949 verbose linkBins parse-json@2.2.0
+950 verbose linkMans parse-json@2.2.0
+951 verbose rebuildBundles parse-json@2.2.0
+952 info install parse-json@2.2.0
+953 info postinstall parse-json@2.2.0
+954 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\path-exists
+955 info build C:\xampp\htdocs\pch\node_modules\path-exists
+956 info preinstall path-exists@2.1.0
+957 info linkStuff path-exists@2.1.0
+958 silly linkStuff path-exists@2.1.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+959 verbose linkBins path-exists@2.1.0
+960 verbose linkMans path-exists@2.1.0
+961 verbose rebuildBundles path-exists@2.1.0
+962 info install path-exists@2.1.0
+963 info postinstall path-exists@2.1.0
+964 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\path-type
+965 info build C:\xampp\htdocs\pch\node_modules\path-type
+966 info preinstall path-type@1.1.0
+967 info linkStuff path-type@1.1.0
+968 silly linkStuff path-type@1.1.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+969 verbose linkBins path-type@1.1.0
+970 verbose linkMans path-type@1.1.0
+971 verbose rebuildBundles path-type@1.1.0
+972 info install path-type@1.1.0
+973 info postinstall path-type@1.1.0
+974 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\pify
+975 info build C:\xampp\htdocs\pch\node_modules\pify
+976 info preinstall pify@2.3.0
+977 info linkStuff pify@2.3.0
+978 silly linkStuff pify@2.3.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+979 verbose linkBins pify@2.3.0
+980 verbose linkMans pify@2.3.0
+981 verbose rebuildBundles pify@2.3.0
+982 info install pify@2.3.0
+983 info postinstall pify@2.3.0
+984 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\pinkie
+985 info build C:\xampp\htdocs\pch\node_modules\pinkie
+986 info preinstall pinkie@2.0.4
+987 info linkStuff pinkie@2.0.4
+988 silly linkStuff pinkie@2.0.4 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+989 verbose linkBins pinkie@2.0.4
+990 verbose linkMans pinkie@2.0.4
+991 verbose rebuildBundles pinkie@2.0.4
+992 info install pinkie@2.0.4
+993 info postinstall pinkie@2.0.4
+994 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\pinkie-promise
+995 info build C:\xampp\htdocs\pch\node_modules\pinkie-promise
+996 info preinstall pinkie-promise@2.0.1
+997 info linkStuff pinkie-promise@2.0.1
+998 silly linkStuff pinkie-promise@2.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+999 verbose linkBins pinkie-promise@2.0.1
+1000 verbose linkMans pinkie-promise@2.0.1
+1001 verbose rebuildBundles pinkie-promise@2.0.1
+1002 info install pinkie-promise@2.0.1
+1003 info postinstall pinkie-promise@2.0.1
+1004 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\process-nextick-args
+1005 info build C:\xampp\htdocs\pch\node_modules\process-nextick-args
+1006 info preinstall process-nextick-args@1.0.7
+1007 info linkStuff process-nextick-args@1.0.7
+1008 silly linkStuff process-nextick-args@1.0.7 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1009 verbose linkBins process-nextick-args@1.0.7
+1010 verbose linkMans process-nextick-args@1.0.7
+1011 verbose rebuildBundles process-nextick-args@1.0.7
+1012 info install process-nextick-args@1.0.7
+1013 info postinstall process-nextick-args@1.0.7
+1014 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\read-pkg
+1015 info build C:\xampp\htdocs\pch\node_modules\read-pkg
+1016 info preinstall read-pkg@1.1.0
+1017 info linkStuff read-pkg@1.1.0
+1018 silly linkStuff read-pkg@1.1.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1019 verbose linkBins read-pkg@1.1.0
+1020 verbose linkMans read-pkg@1.1.0
+1021 verbose rebuildBundles read-pkg@1.1.0
+1022 info install read-pkg@1.1.0
+1023 info postinstall read-pkg@1.1.0
+1024 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\read-pkg-up
+1025 info build C:\xampp\htdocs\pch\node_modules\read-pkg-up
+1026 info preinstall read-pkg-up@1.0.1
+1027 info linkStuff read-pkg-up@1.0.1
+1028 silly linkStuff read-pkg-up@1.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1029 verbose linkBins read-pkg-up@1.0.1
+1030 verbose linkMans read-pkg-up@1.0.1
+1031 verbose rebuildBundles read-pkg-up@1.0.1
+1032 info install read-pkg-up@1.0.1
+1033 info postinstall read-pkg-up@1.0.1
+1034 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\readable-stream
+1035 info build C:\xampp\htdocs\pch\node_modules\readable-stream
+1036 info preinstall readable-stream@1.1.14
+1037 info linkStuff readable-stream@1.1.14
+1038 silly linkStuff readable-stream@1.1.14 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1039 verbose linkBins readable-stream@1.1.14
+1040 verbose linkMans readable-stream@1.1.14
+1041 verbose rebuildBundles readable-stream@1.1.14
+1042 info install readable-stream@1.1.14
+1043 info postinstall readable-stream@1.1.14
+1044 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\redent
+1045 info build C:\xampp\htdocs\pch\node_modules\redent
+1046 info preinstall redent@1.0.0
+1047 info linkStuff redent@1.0.0
+1048 silly linkStuff redent@1.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1049 verbose linkBins redent@1.0.0
+1050 verbose linkMans redent@1.0.0
+1051 verbose rebuildBundles redent@1.0.0
+1052 info install redent@1.0.0
+1053 info postinstall redent@1.0.0
+1054 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\repeating
+1055 info build C:\xampp\htdocs\pch\node_modules\repeating
+1056 info preinstall repeating@2.0.1
+1057 info linkStuff repeating@2.0.1
+1058 silly linkStuff repeating@2.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1059 verbose linkBins repeating@2.0.1
+1060 verbose linkMans repeating@2.0.1
+1061 verbose rebuildBundles repeating@2.0.1
+1062 info install repeating@2.0.1
+1063 info postinstall repeating@2.0.1
+1064 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\replace-ext
+1065 info build C:\xampp\htdocs\pch\node_modules\replace-ext
+1066 info preinstall replace-ext@0.0.1
+1067 info linkStuff replace-ext@0.0.1
+1068 silly linkStuff replace-ext@0.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1069 verbose linkBins replace-ext@0.0.1
+1070 verbose linkMans replace-ext@0.0.1
+1071 verbose rebuildBundles replace-ext@0.0.1
+1072 info install replace-ext@0.0.1
+1073 info postinstall replace-ext@0.0.1
+1074 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\semver
+1075 info build C:\xampp\htdocs\pch\node_modules\semver
+1076 info preinstall semver@5.3.0
+1077 info linkStuff semver@5.3.0
+1078 silly linkStuff semver@5.3.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1079 verbose linkBins semver@5.3.0
+1080 verbose link bins [ { semver: './bin/semver' },
+1080 verbose link bins   'C:\\xampp\\htdocs\\pch\\node_modules\\.bin',
+1080 verbose link bins   false ]
+1081 verbose linkMans semver@5.3.0
+1082 verbose rebuildBundles semver@5.3.0
+1083 info install semver@5.3.0
+1084 info postinstall semver@5.3.0
+1085 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\signal-exit
+1086 info build C:\xampp\htdocs\pch\node_modules\signal-exit
+1087 info preinstall signal-exit@3.0.1
+1088 info linkStuff signal-exit@3.0.1
+1089 silly linkStuff signal-exit@3.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1090 verbose linkBins signal-exit@3.0.1
+1091 verbose linkMans signal-exit@3.0.1
+1092 verbose rebuildBundles signal-exit@3.0.1
+1093 info install signal-exit@3.0.1
+1094 info postinstall signal-exit@3.0.1
+1095 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\sparkles
+1096 info build C:\xampp\htdocs\pch\node_modules\sparkles
+1097 info preinstall sparkles@1.0.0
+1098 info linkStuff sparkles@1.0.0
+1099 silly linkStuff sparkles@1.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1100 verbose linkBins sparkles@1.0.0
+1101 verbose linkMans sparkles@1.0.0
+1102 verbose rebuildBundles sparkles@1.0.0
+1103 info install sparkles@1.0.0
+1104 info postinstall sparkles@1.0.0
+1105 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\spdx-correct
+1106 info build C:\xampp\htdocs\pch\node_modules\spdx-correct
+1107 info preinstall spdx-correct@1.0.2
+1108 info linkStuff spdx-correct@1.0.2
+1109 silly linkStuff spdx-correct@1.0.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1110 verbose linkBins spdx-correct@1.0.2
+1111 verbose linkMans spdx-correct@1.0.2
+1112 verbose rebuildBundles spdx-correct@1.0.2
+1113 info install spdx-correct@1.0.2
+1114 info postinstall spdx-correct@1.0.2
+1115 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\spdx-expression-parse
+1116 info build C:\xampp\htdocs\pch\node_modules\spdx-expression-parse
+1117 info preinstall spdx-expression-parse@1.0.4
+1118 info linkStuff spdx-expression-parse@1.0.4
+1119 silly linkStuff spdx-expression-parse@1.0.4 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1120 verbose linkBins spdx-expression-parse@1.0.4
+1121 verbose linkMans spdx-expression-parse@1.0.4
+1122 verbose rebuildBundles spdx-expression-parse@1.0.4
+1123 info install spdx-expression-parse@1.0.4
+1124 info postinstall spdx-expression-parse@1.0.4
+1125 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\spdx-license-ids
+1126 info build C:\xampp\htdocs\pch\node_modules\spdx-license-ids
+1127 info preinstall spdx-license-ids@1.2.2
+1128 info linkStuff spdx-license-ids@1.2.2
+1129 silly linkStuff spdx-license-ids@1.2.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1130 verbose linkBins spdx-license-ids@1.2.2
+1131 verbose linkMans spdx-license-ids@1.2.2
+1132 verbose rebuildBundles spdx-license-ids@1.2.2
+1133 info install spdx-license-ids@1.2.2
+1134 info postinstall spdx-license-ids@1.2.2
+1135 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\string_decoder
+1136 info build C:\xampp\htdocs\pch\node_modules\string_decoder
+1137 info preinstall string_decoder@0.10.31
+1138 info linkStuff string_decoder@0.10.31
+1139 silly linkStuff string_decoder@0.10.31 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1140 verbose linkBins string_decoder@0.10.31
+1141 verbose linkMans string_decoder@0.10.31
+1142 verbose rebuildBundles string_decoder@0.10.31
+1143 info install string_decoder@0.10.31
+1144 info postinstall string_decoder@0.10.31
+1145 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\strip-ansi
+1146 info build C:\xampp\htdocs\pch\node_modules\strip-ansi
+1147 info preinstall strip-ansi@3.0.1
+1148 info linkStuff strip-ansi@3.0.1
+1149 silly linkStuff strip-ansi@3.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1150 verbose linkBins strip-ansi@3.0.1
+1151 verbose linkMans strip-ansi@3.0.1
+1152 verbose rebuildBundles strip-ansi@3.0.1
+1153 info install strip-ansi@3.0.1
+1154 info postinstall strip-ansi@3.0.1
+1155 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\strip-bom
+1156 info build C:\xampp\htdocs\pch\node_modules\strip-bom
+1157 info preinstall strip-bom@2.0.0
+1158 info linkStuff strip-bom@2.0.0
+1159 silly linkStuff strip-bom@2.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1160 verbose linkBins strip-bom@2.0.0
+1161 verbose linkMans strip-bom@2.0.0
+1162 verbose rebuildBundles strip-bom@2.0.0
+1163 info install strip-bom@2.0.0
+1164 info postinstall strip-bom@2.0.0
+1165 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\strip-indent
+1166 info build C:\xampp\htdocs\pch\node_modules\strip-indent
+1167 info preinstall strip-indent@1.0.1
+1168 info linkStuff strip-indent@1.0.1
+1169 silly linkStuff strip-indent@1.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1170 verbose linkBins strip-indent@1.0.1
+1171 verbose link bins [ { 'strip-indent': 'cli.js' },
+1171 verbose link bins   'C:\\xampp\\htdocs\\pch\\node_modules\\.bin',
+1171 verbose link bins   false ]
+1172 verbose linkMans strip-indent@1.0.1
+1173 verbose rebuildBundles strip-indent@1.0.1
+1174 info install strip-indent@1.0.1
+1175 info postinstall strip-indent@1.0.1
+1176 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\supports-color
+1177 info build C:\xampp\htdocs\pch\node_modules\supports-color
+1178 info preinstall supports-color@2.0.0
+1179 info linkStuff supports-color@2.0.0
+1180 silly linkStuff supports-color@2.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1181 verbose linkBins supports-color@2.0.0
+1182 verbose linkMans supports-color@2.0.0
+1183 verbose rebuildBundles supports-color@2.0.0
+1184 info install supports-color@2.0.0
+1185 info postinstall supports-color@2.0.0
+1186 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\through2
+1187 info build C:\xampp\htdocs\pch\node_modules\through2
+1188 info preinstall through2@2.0.1
+1189 info linkStuff through2@2.0.1
+1190 silly linkStuff through2@2.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1191 verbose linkBins through2@2.0.1
+1192 verbose linkMans through2@2.0.1
+1193 verbose rebuildBundles through2@2.0.1
+1194 verbose rebuildBundles [ 'isarray', 'readable-stream' ]
+1195 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\through2\node_modules\isarray
+1196 info build C:\xampp\htdocs\pch\node_modules\through2\node_modules\isarray
+1197 info preinstall isarray@1.0.0
+1198 info linkStuff isarray@1.0.0
+1199 silly linkStuff isarray@1.0.0 has C:\xampp\htdocs\pch\node_modules\through2\node_modules as its parent node_modules
+1200 verbose linkBins isarray@1.0.0
+1201 verbose linkMans isarray@1.0.0
+1202 verbose rebuildBundles isarray@1.0.0
+1203 info install isarray@1.0.0
+1204 info postinstall isarray@1.0.0
+1205 info install through2@2.0.1
+1206 info postinstall through2@2.0.1
+1207 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\time-stamp
+1208 info build C:\xampp\htdocs\pch\node_modules\time-stamp
+1209 info preinstall time-stamp@1.0.1
+1210 info linkStuff time-stamp@1.0.1
+1211 silly linkStuff time-stamp@1.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1212 verbose linkBins time-stamp@1.0.1
+1213 verbose linkMans time-stamp@1.0.1
+1214 verbose rebuildBundles time-stamp@1.0.1
+1215 info install time-stamp@1.0.1
+1216 info postinstall time-stamp@1.0.1
+1217 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\trim-newlines
+1218 info build C:\xampp\htdocs\pch\node_modules\trim-newlines
+1219 info preinstall trim-newlines@1.0.0
+1220 info linkStuff trim-newlines@1.0.0
+1221 silly linkStuff trim-newlines@1.0.0 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1222 verbose linkBins trim-newlines@1.0.0
+1223 verbose linkMans trim-newlines@1.0.0
+1224 verbose rebuildBundles trim-newlines@1.0.0
+1225 info install trim-newlines@1.0.0
+1226 info postinstall trim-newlines@1.0.0
+1227 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\util-deprecate
+1228 info build C:\xampp\htdocs\pch\node_modules\util-deprecate
+1229 info preinstall util-deprecate@1.0.2
+1230 info linkStuff util-deprecate@1.0.2
+1231 silly linkStuff util-deprecate@1.0.2 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1232 verbose linkBins util-deprecate@1.0.2
+1233 verbose linkMans util-deprecate@1.0.2
+1234 verbose rebuildBundles util-deprecate@1.0.2
+1235 info install util-deprecate@1.0.2
+1236 info postinstall util-deprecate@1.0.2
+1237 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\validate-npm-package-license
+1238 info build C:\xampp\htdocs\pch\node_modules\validate-npm-package-license
+1239 info preinstall validate-npm-package-license@3.0.1
+1240 info linkStuff validate-npm-package-license@3.0.1
+1241 silly linkStuff validate-npm-package-license@3.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1242 verbose linkBins validate-npm-package-license@3.0.1
+1243 verbose linkMans validate-npm-package-license@3.0.1
+1244 verbose rebuildBundles validate-npm-package-license@3.0.1
+1245 info install validate-npm-package-license@3.0.1
+1246 info postinstall validate-npm-package-license@3.0.1
+1247 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\vinyl
+1248 info build C:\xampp\htdocs\pch\node_modules\vinyl
+1249 info preinstall vinyl@0.5.3
+1250 info linkStuff vinyl@0.5.3
+1251 silly linkStuff vinyl@0.5.3 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1252 verbose linkBins vinyl@0.5.3
+1253 verbose linkMans vinyl@0.5.3
+1254 verbose rebuildBundles vinyl@0.5.3
+1255 info install vinyl@0.5.3
+1256 info postinstall vinyl@0.5.3
+1257 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\which
+1258 info build C:\xampp\htdocs\pch\node_modules\which
+1259 info preinstall which@1.2.12
+1260 info linkStuff which@1.2.12
+1261 silly linkStuff which@1.2.12 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1262 verbose linkBins which@1.2.12
+1263 verbose link bins [ { which: './bin/which' },
+1263 verbose link bins   'C:\\xampp\\htdocs\\pch\\node_modules\\.bin',
+1263 verbose link bins   false ]
+1264 verbose linkMans which@1.2.12
+1265 verbose rebuildBundles which@1.2.12
+1266 info install which@1.2.12
+1267 info postinstall which@1.2.12
+1268 verbose rebuild bundle C:\xampp\htdocs\pch\node_modules\xtend
+1269 info build C:\xampp\htdocs\pch\node_modules\xtend
+1270 info preinstall xtend@4.0.1
+1271 info linkStuff xtend@4.0.1
+1272 silly linkStuff xtend@4.0.1 has C:\xampp\htdocs\pch\node_modules as its parent node_modules
+1273 verbose linkBins xtend@4.0.1
+1274 verbose linkMans xtend@4.0.1
+1275 verbose rebuildBundles xtend@4.0.1
+1276 info install xtend@4.0.1
+1277 info postinstall xtend@4.0.1
+1278 info install @
+1279 info postinstall @
+1280 info prepublish @
+1281 verbose validateInstall loading C:\xampp\htdocs\pch\package.json for validation
+1282 verbose stack Error: The package buble@0.13.2 does not satisfy its siblings' peerDependencies requirements!
+1282 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+1282 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+1282 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+1282 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1282 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1282 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1282 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1282 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1282 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1282 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1283 verbose cwd C:\xampp\htdocs\pch
+1284 error Windows_NT 6.1.7601
+1285 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+1286 error node v4.5.0
+1287 error npm  v2.15.9
+1288 error code EPEERINVALID
+1289 error peerinvalid The package buble@0.13.2 does not satisfy its siblings' peerDependencies requirements!
+1289 error peerinvalid Peer buble-loader@0.3.2 wants buble@^0.14.0
+1290 verbose exit [ 1, true ]
